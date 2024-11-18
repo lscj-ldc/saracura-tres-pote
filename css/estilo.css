@@ -43,11 +43,11 @@ header .fundo img {
     float: right;
 }
 main .normal {
-    font-family: 'titulo';
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     text-align: justify;
-    font-size: 3em;
-    padding: 50px 80px 50px 50px;
+    font-size: 2.5em;
+    padding: 50px 300px 50px 50px;
     margin: auto;
     width: auto;
 }
@@ -59,17 +59,17 @@ main .imagem {
 }
 main .imagem p {
     background-color: rgba(31, 32, 32, 0.436);
-    font-family: 'titulo';
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     text-align: justify;
     color: white;
-    font-size: 3em;
-    padding: 50px 80px 50px 50px;
+    font-size: 2.5em;
+    padding: 50px 300px 50px 50px;
     margin: auto;
 }
 footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 50px;
 }
