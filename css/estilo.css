@@ -38,9 +38,10 @@ header .fundo h2 {
     border-radius: 5px;
 }
 header .fundo img {
-    margin-right: 5px;
-    margin-top: -185px;
-    float: right;
+    background-color: rgba(31, 32, 32, 0.436);
+    margin: 5px;
+    margin-left: 5px;
+    float: left;
 }
 main .normal {
     font-family: Arial, Helvetica, sans-serif;
@@ -72,4 +73,12 @@ footer {
     color: white;
     text-align: center;
     padding: 50px;
+}
+@media screen and (max-width: 920px) {
+    main .imagem p {
+        font-size: 1em;
+    }
+    main .normal {
+        font-size: 1em;
+    }
 }
