@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'titulo';
+    src: url(../fontes/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url(../imagens/original.jpeg);
+    background-position: left ;
+    background-repeat: no-repeat;
+
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(51, 51, 51);
+    box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.473);
+}
+header > h1 {
+    font-family: 'titulo';
+    font-size: 5em;
+    font-weight: normal;
+    width: 200px;
+    border-radius: 5px;
+    margin: 0 0 0 200px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0 black;
+}
+header > h2 {
+    font-family: 'titulo';
+    font-weight: normal;
+    font-size: 2em;
+    width: 230px;
+    border-radius: 5px;
+    margin: 10px 0 10px 300px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0 black;
+}
+header figure p {
+    color: white;
+
+}
+header figure {
+    position: absolute;
+    margin: -150px 0 0 5px;
+}
