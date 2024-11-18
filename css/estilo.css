@@ -13,28 +13,63 @@ header .fundo {
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
-    position: relative;
+    text-align: center;
 }
 header .fundo h1 {
-    text-align: center;
     font-family: 'titulo';
-    color: white;
     font-weight: normal;
+    margin: 5px auto;
+    width: 230px;
+    color: white;
+    background-color: rgba(31, 32, 32, 0.436);
     font-size: 5em;
-    width: 150px;
-    margin: auto;
-    float: left;
+    padding: 5px;
+    border-radius: 5px;
 }
 header .fundo h2 {
-    margin: auto;
-    width: 250px;
-    float: left;
+    font-family: 'titulo';
+    font-weight: normal;
+    margin: 5px auto;
+    width: 350px;
+    color: white;
+    background-color: rgba(31, 32, 32, 0.436);
+    font-size: 2em;
+    padding: 10px;
+    border-radius: 5px;
 }
-header .fundo figure img {
+header .fundo img {
     margin-right: 5px;
-    margin-top: 5px;
+    margin-top: -185px;
     float: right;
 }
-header .fundo figure p {
-    margin-right: 5px;
+main .normal {
+    font-family: 'titulo';
+    font-weight: normal;
+    text-align: justify;
+    font-size: 3em;
+    padding: 50px 80px 50px 50px;
+    margin: auto;
+    width: auto;
+}
+main .imagem {
+    background-image: url(../imagens/original.jpeg);
+    background-position: top bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main .imagem p {
+    background-color: rgba(31, 32, 32, 0.436);
+    font-family: 'titulo';
+    font-weight: normal;
+    text-align: justify;
+    color: white;
+    font-size: 3em;
+    padding: 50px 80px 50px 50px;
+    margin: auto;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
