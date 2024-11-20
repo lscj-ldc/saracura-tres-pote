@@ -7,8 +7,8 @@ togglebtn.addEventListener("click", function(){
     nav.classList.toggle('open');
 })
 var Typed=new Typed(".input",{
-    strings:["Frontend Developer","UX Designer","Web Developer"],
-    TypedSpeed: 70,
+    strings:["Saracura Três Potes","Folclore","Ribeirão Corrente, Cidade de Minha Vida","João de Barro... Um Tesouro Valioso"],
+    TypedSpeed: 50,
     backSpeed: 55,
     loop: true
 })

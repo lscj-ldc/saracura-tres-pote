@@ -23,7 +23,7 @@
     --preto-rgba-00001: rgba(0, 0, 0, 0.1);
 }
 body {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .hero-header {
     width: 100%;
@@ -133,7 +133,7 @@ nav .navlinks li a {
 }
 .hero-text h1 {
     color: var(--azul-007ced);
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .hero-text p {
     color: var(--branco-e5e5e5);
@@ -160,6 +160,7 @@ nav .navlinks li a {
     font-size: 18px;
     margin-right: 10px;
     transition: 0.5s;
+    padding: 15px 0 0 0;
 }
 .hero-text .social i:hover {
     color: var(--azul-007ced);
@@ -192,7 +193,7 @@ nav .navlinks li a {
     nav .navlinks {
         position: absolute;
         top: 110px;
-        right: -100%;
+        right: 100%; /* -100% */
         bottom: 0;
         width: 60%;
         height: 100vh;
