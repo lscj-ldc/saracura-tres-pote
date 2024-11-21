@@ -285,6 +285,22 @@ section#img09 {
     background-image: url('../imagens/bola-gude.jpg');
     background-position: right center;
 }
+section#img10 {
+    background-image: url('../imagens/img1.jpeg');
+    background-position: right bottom;
+}
+section#img11 {
+    background-image: url('../imagens/img2.jpeg');
+    background-position: right bottom;
+}
+section#img12 {
+    background-image: url('../imagens/img3.jpeg');
+    background-position: right bottom;
+}
+section#img13 {
+    background-image: url('../imagens/img4.jpeg');
+    background-position: right bottom;
+}
 section.imagem {
     color: var(--branco-ffffff);
     background-size: cover;
