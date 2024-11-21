@@ -1,8 +1,8 @@
 /* creating button click show hide navbar */
-var togglebtn=document.querySelector(".togglebtn");
-var nav=document.querySelector(".navlinks");
-var links=document.querySelector(".navlinks li");
-togglebtn.addEventListener("click", function(){
+var menu=document.querySelector(".menu");
+var nav=document.querySelector(".menu-texto");
+var links=document.querySelector(".menu-texto li");
+menu.addEventListener("click", function(){
     this.classList.toggle("click");
     nav.classList.toggle('open');
 })
