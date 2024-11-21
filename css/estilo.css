@@ -301,6 +301,18 @@ section#img13 {
     background-image: url('../imagens/img4.jpeg');
     background-position: right bottom;
 }
+section#img14 {
+    background-image: url('../imagens/joao_barro1.jpg');
+    background-position: right bottom;
+}
+section#img15 {
+    background-image: url('../imagens/joao2.jpeg');
+    background-position: right bottom;
+}
+section#img16 {
+    background-image: url('../imagens/joao.jpeg');
+    background-position: right bottom;
+}
 section.imagem {
     color: var(--branco-ffffff);
     background-size: cover;
