@@ -221,20 +221,42 @@ nav .menu-texto li a {
     .conteudo-principal {
         padding: 40px 0;
     }
+    section#img01 > p, section#img02 > p, section#img03 > p, section#img04 > p {
+        font-size: 1em;
+    }
+    section.normal p {
+        font-size: 1em;
+    }
 }
 main {
     background: var(--branco-ffffff);
 }
-.normal h1 {
-    padding: 50px;
-    text-align: center;
-}
 .normal p {
-    background: var(--azul-007ced);
-    padding: 50px;
+    display: inline-block;
+    background-color: rgba(77, 73, 73, 0.089);
+    text-shadow: 1px 1px 0 black;
+    text-align: justify;
+    font-size: 2em;
+    padding: 70px;
 }
 section#img01 {
     background-image: url('../imagens/saracura-tres-potes.jpg');
+    background-position: right center;
+}
+section#img02 {
+    background-image: url('../imagens/original.jpeg');
+    background-position: right center;
+}
+section#img03 {
+    background-image: url('../imagens/saracura-tres.jpg');
+    background-position: right center;
+}
+section#img04 {
+    background-image: url('../imagens/Saracura-do-Mato.jpg');
+    background-position: right center;
+}
+section#img05 {
+    background-image: url('../imagens/background002.jpg');
     background-position: right center;
 }
 section.imagem {
@@ -246,17 +268,28 @@ section.imagem {
 }
 section.imagem > p {
     display: inline-block;
-    padding: 10px;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0 black;
     text-align: justify;
     font-size: 2em;
     padding: 70px;
 }
-footer {
+
+
+section.imagem > h1 {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0 black;
+    text-align: justify;
+    font-size: 2em;
+    padding: 70px;
+}
+
+footer p {
     background-color: var(--preto-222);
     color: var(--branco-ffffff);
     text-align: center;
     height: 100px;
     margin: 10px 0 0 0;
+    padding: 50px;
 }
