@@ -222,7 +222,7 @@ nav .menu-texto li a {
         padding: 40px 0;
     }
     section#img01 > p, section#img02 > p, section#img03 > p, section#img04 > p {
-        font-size: 1em;
+        font-size: 1.5em;
     }
     section#img01 > p {
         font-size: 1.5em;
@@ -240,6 +240,7 @@ main {
     background: var(--branco-ffffff);
 }
 section.normal > p {
+    font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
     background-color: rgba(77, 73, 73, 0.089);
     text-shadow: 1px 1px 0 black;
