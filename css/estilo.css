@@ -243,7 +243,7 @@ main {
 section.normal > p {
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
-    background-color: rgba(77, 73, 73, 0.089);
+    /*background-color: rgba(77, 73, 73, 0.089);*/
     text-shadow: 1px 1px 0 black;
     text-align: justify;
     font-size: 2em;
@@ -269,6 +269,22 @@ section#img05 {
     background-image: url('../imagens/background002.jpg');
     background-position: right center;
 }
+section#img06 {
+    background-image: url('../imagens/saci-perere.jpg');
+    background-position: right center;
+}
+section#img07 {
+    background-image: url('../imagens/monjolo.jpg');
+    background-position: right center;
+}
+section#img08 {
+    background-image: url('../imagens/fogos.jpg');
+    background-position: right center;
+}
+section#img09 {
+    background-image: url('../imagens/bola-gude.jpg');
+    background-position: right center;
+}
 section.imagem {
     color: var(--branco-ffffff);
     background-size: cover;
@@ -278,7 +294,7 @@ section.imagem {
 }
 section.imagem > p {
     font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
+    /*display: inline-block;*/
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0 black;
     text-align: justify;
